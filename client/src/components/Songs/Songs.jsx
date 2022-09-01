@@ -31,7 +31,7 @@ export const Songs = () => {
     <div>
       <div className="songs-Header">
       <h3>Top 10 Songs</h3>
-      <button className='add-song' onClick={()=> navigate("addsong")}>+ Add Song</button>
+      <button className='add-song' onClick={()=> navigate("/addsong")}>+ Add Song</button>
       </div>  
      <table className='table'>
       <thead>
