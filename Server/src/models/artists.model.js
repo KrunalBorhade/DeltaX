@@ -3,9 +3,10 @@ const mongoose = require("mongoose")
 const artistSchema = new mongoose.Schema(
     {
         Name:{type:String,required:true},
-        DOB:{type:Number,required:true},
+        DOB:{type:String,required:true},
         Bio:{type:String, required:true},
-        songs:{type:mongoose.Schema.ObjectId, ref:"songs",required:true}
+        songs:{type:mongoose.Schema.ObjectId, ref:"songs",required:false},
+        song:{type:String}
     },
     {
         versionKey:false,

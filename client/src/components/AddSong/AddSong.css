@@ -1,0 +1,14 @@
+.add-song1{
+    width: 18%;
+    margin: auto;
+}
+.save-btn{
+    width: 50%;
+    margin-left: 60px;
+    text-align: center;
+    margin-top: 30px;
+}
+input{
+    width: 70%;
+    margin-top: 30px;
+}

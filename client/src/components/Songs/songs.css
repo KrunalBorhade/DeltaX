@@ -1,0 +1,26 @@
+.songs-Header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.add-song{
+    background-color:rgb(71, 69, 69);
+    color: white;
+    width: 150px;
+    font-size:larger;
+    cursor: pointer;
+}
+.table{
+    width:75%;
+    margin: auto;
+    text-align: center;
+}
+td{
+    border-bottom: 1px solid black;
+}
+img{
+    width:20%
+}
