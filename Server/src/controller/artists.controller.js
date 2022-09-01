@@ -5,8 +5,8 @@ const router = express.Router()
 
 router.get("/",async(req,res)=>{
     try {
-        // const artists = await Artists.find({songs:req.user.id})
-        const artists = await Artists.find().lean().exec()
+        const artists = await Artists.find(req.artists.Name)
+        // const artists = await Artists.find().lean().exec()
 
         res.status(200).send(artists)
     } catch (err) {
